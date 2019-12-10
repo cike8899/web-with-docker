@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  geek:
+    container_name: geek-bill-web
+    image: balibabu/geek-bill-web:latest
+    ports:
+      - "8083:88"
+    restart: on-failure
